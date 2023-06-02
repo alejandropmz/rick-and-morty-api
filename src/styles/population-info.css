@@ -1,0 +1,75 @@
+.population__container {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color: var(--card);
+  color: white;
+  overflow: hidden;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+}
+
+.population__container .card__info {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.population__container .card__info .gray {
+  color: gray;
+}
+
+.population__container .card__info h3,
+.population__container .card__info h5 {
+  margin: 0;
+}
+
+.card__info .status {
+  font-size: 1rem;
+}
+
+.card__info .status .bx {
+  margin-right: 6px;
+  font-size: 0.6rem;
+}
+
+.card__info .status .Alive {
+  color: green;
+}
+
+.card__info .status .Dead {
+  color: red;
+}
+
+.card__info .status .Unknow {
+  color: gray;
+}
+
+/* media querys */
+
+@media screen and (max-width: 772px) {
+  .population__container {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .population__container img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .population__container {
+    font-size: 0.7rem;
+    height: 150px;
+    width: 90%;
+  }
+  .population__container img {
+    width: 160px;
+  }
+}

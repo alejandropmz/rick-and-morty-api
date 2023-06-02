@@ -1,0 +1,18 @@
+@import url("styles/location-card.css");
+@import url("styles/population-info.css");
+@import url("styles/header.css");
+@import url("styles/search-input.css");
+@import url("styles/no-people.css");
+@import url("styles/loading.css");
+
+:root {
+  --black: #232421;
+  --card: #3c3e44;
+}
+
+
+.cards__container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}

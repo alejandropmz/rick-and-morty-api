@@ -1,0 +1,17 @@
+.loading {
+  width: 700px;
+  margin: auto;
+  border-radius: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.loading img {
+  width: 200px;
+}

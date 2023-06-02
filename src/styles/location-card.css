@@ -1,0 +1,24 @@
+.location__card__container {
+  padding: 20px 40px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  background-color: var(--black);
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.location__card__container h3 {
+  margin: 10px 0;
+}
+
+.location__card__container .card__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location__card__container .card__info p {
+  margin: 0;
+}
